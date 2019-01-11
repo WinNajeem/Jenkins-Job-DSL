@@ -1,4 +1,4 @@
-job("JenkinsJobDSL") {
+job("JenkinsJobDSL-1") {
 	description("Jenkins Job DSL")
 	keepDependencies(false)
 	scm {

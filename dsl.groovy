@@ -1,5 +1,5 @@
 job("JenkinsJobDSL-1") {
-	description("Jenkins Job DSL")
+	description("Jenkins Job DSL 1")
 	keepDependencies(false)
 	scm {
 		git {

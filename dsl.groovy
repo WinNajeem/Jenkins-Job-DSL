@@ -12,7 +12,6 @@ job("JenkinsJobDSL-1") {
 	disabled(false)
 	concurrentBuild(false)
 	steps {
-		shell("chmod 755 main.py")
-		shell("./main.py")
+		shell("python main.py")
 	}
 }
